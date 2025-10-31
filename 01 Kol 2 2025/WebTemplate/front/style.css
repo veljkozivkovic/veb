@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.naslov-div {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.biblioteka-div {
+    margin-bottom: 20px;
+}
+
+.forma-div {
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.knjiga-div {
+    width: max-content;
+    border: 1px solid black;
+}
+
+.izdavanje-vracanje-div {
+    width: max-content;
+    border: 1px solid black;
+
+}
+
+.najcitanija-knjiga-div {
+    width: max-content;
+    border: 1px solid black;
+
+}
+
+.naslov-knjige-div{
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    padding: 15px;
+    margin: 12px;
+}
+
+.knjiga-elementi-div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+.izdavanje-vracanje-naslov-div{
+    height: 25px;
+    font: large;
+    text-align: center;
+    font-weight: bolder;
+    padding: 15px;
+    margin: 10px;
+}
+
+.izdavanje-vracanje-elementi-div {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+
+.combobox {
+    grid-area: 2/1/3/3;
+    height: 25px;
+}
+
+.najcitanije-knjiga-naslov-div{
+    text-align: center;
+    height: 25px;
+    font-weight: bolder;
+    padding : 15px;
+    margin: 10px;
+    font:large;
+}
+
+.iznajmi-vrati-dugme {
+    grid-area: 3/1/4/3;
+    height: 25px;
+}
+
+
+/* ovo je za sumbit dugme br vr odakle pocinje/br kolone odakle pocinje/br vr de se zavrsava/br kol de se zavrsava */
+/* PAZI BROJANJE IMA 1FR I 2FR GORE TO ZNACI UKUPNO 3FR STO ZNACI POD 3 KOLONE ZA SVAKU VRSTU */
+.dodaj-button{
+    grid-area: 6/1/8/3;  
+    font-size: medium;
+    height: 25px;
+}
+
+/* justify-self: center; DODAS GORE KORISTIS KAD KORISTIS FLEKS I KAD HOCES SAMO NJEGA DA CENTRIRAS SAMOG OD SEBE */
+
+
+.najcitanija-knjiga-text-div{
+    font-size:large;
+    color: red;
+    height: 50px;
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+}
+/* TEXT-ALIGN JE DA CENTRIRA */

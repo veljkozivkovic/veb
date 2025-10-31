@@ -1,0 +1,121 @@
+.body{
+    display:flex;
+    gap:5px;
+}
+
+.container{
+    display : flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.leva-strana{
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 500px;
+    min-width: 500px;
+
+}
+
+.gore-leva-strana{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    height: 60px;
+    border: 1px dashed black;
+    
+
+}
+
+
+.gl-prvi-red{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    height: 20px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+
+label{
+    width:70%;
+}
+
+.select-stan{
+    width: 100%;
+}
+
+.gl-drugi-red{
+    width: 100%;
+    min-width: 100%;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.prikaz-informacija{
+    width: 100%;
+}
+
+.dole-leva-strana{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed black;
+
+    gap: 10px;
+}
+
+.dl-red{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-width: 500px;
+    margin: 3px;
+}
+
+.izracunaj-ukupno-zad-button{
+    width: 98%;
+    margin: 3px;
+    
+}
+
+
+.desna-strana{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.racun-div{
+    width: 200px;
+    height: 120px;
+    display:flex;
+    flex-direction: column;
+    border: 1px dotted black;
+    gap: 2px;
+    justify-content: center;
+    border-radius: 8px;
+    
+}
+
+.racun-div-zeleni{
+    background-color: lightgreen;
+}
+
+.racun-div-crveni{
+    background-color: lightcoral;
+}
+
+.stan-red-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+

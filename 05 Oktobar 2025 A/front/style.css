@@ -1,0 +1,65 @@
+body{
+
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.kuca{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 300px;
+    gap: 2px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.kuca-naziv{
+    height:100px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.red{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+select{
+    width: 70%;
+}
+
+input{
+    width: 67%;
+}
+
+.stubici{
+    display:flex;
+    border: 1px solid black;
+    margin: 3px;
+    height: 140px;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.stubic{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.stubic-nacrtan{
+    background-color: brown;
+    height: 100px;
+    width: 30px;
+}
+
+.stubic-ocena{
+    text-align: center;
+}
